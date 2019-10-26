@@ -11,7 +11,7 @@ from keras.preprocessing.image import ImageDataGenerator
 from keras.optimizers import Adam, SGD
 from keras.callbacks import EarlyStopping, ReduceLROnPlateau
 
-def AlexNet(input_shape=(64, 64, 3), include_top=True, load_weight=''):
+def AlexNet(input_shape=(64, 64, 3), include_top=True, save_weights='', load_weights=''):
     '''
     # Function: Alexnet model for keras
     
@@ -55,7 +55,10 @@ def AlexNet(input_shape=(64, 64, 3), include_top=True, load_weight=''):
     
     model = Model(img_input, out)
 
-    if load_weight:
-        model.load_weight(load_weight)
+    if save_weights:
+        model.save(save_weights)
+
+    if load_weights:
+        model.load_weights(load_weights)
 
     return model

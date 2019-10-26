@@ -16,3 +16,7 @@ def contrastive_loss(y_true,y_pred):
 
 def siamese_acc(y_true, y_pred):
     return K.mean((K.equal(y_true, K.cast(y_pred > 0.4, K.floatx()))), axis=1)
+
+def l2_normalize(x, axis=-1, epsilon=1e-7):
+    y = K.max(K.sum(x ** 2, axis, keepdims=True), axis, keepdims=True)
+    return x / K.sqrt(y + epsilon)
