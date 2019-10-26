@@ -1,7 +1,6 @@
 # FakeTalkerDetect
 ## Description
  Deepfake Talking Head Detection with Siamese Networks for Unbalanced learning
-<<<<<<< HEAD
  paper: http://openaccess.thecvf.com/content_ICCVW_2019/papers/HBU/Jeon_FakeTalkerDetect_Effective_and_Practical_Realistic_Neural_Talking_Head_Detection_with_ICCVW_2019_paper.pdf
 
 ## Dataset
