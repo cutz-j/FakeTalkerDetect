@@ -9,7 +9,3 @@
  
  The talking-heads model was trained using the VoxCeleb2 dataset. The talking-headas model generates images.
  Talking-Heads GAN model from: https://github.com/grey-eye/talking-heads
-=======
-
-Before ICCV Workshop Human Behavior Understanding, README and Detail will be uploaded
->>>>>>> 8608513ed3005e68e84a0dc57953e5752106aeae
