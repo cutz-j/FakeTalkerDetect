@@ -1,0 +1,22 @@
+You can download: https://skku0-my.sharepoint.com/:f:/g/personal/byo7000_skku_edu/EjvIqW2O5UdGizE87UEKdFIBrGBC4qksJtUKLTscnjnhBQ?e=xTV2Tx
+
+5 Folders
+
+fine-tune
+  - 0_real
+  - 1_fake
+
+test
+  - 0_real
+
+test50
+  - 0_real
+  - 1_fake
+
+train
+  - 0_real
+  - 1_fake
+
+validation
+  - 0_real
+  - 1_fake

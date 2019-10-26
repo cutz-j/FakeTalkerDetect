@@ -1,0 +1,9 @@
+python >= 3.6
+numpy
+os
+PIL
+tensorflow
+keras
+scikit-learn
+scipy
+pandas
