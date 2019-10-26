@@ -12,3 +12,9 @@
 
 ## RUN
  run main.py
+ 
+## Extra
+ Test_ratio_result.ipynb
+  - real-sample proportion in test set experiment
+ Extra.Triplet_loss.ipynb
+  - Triplet loss experiment. * it is experimented in 50:50 proportion test set.
